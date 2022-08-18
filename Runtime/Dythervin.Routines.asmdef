@@ -1,0 +1,7 @@
+﻿{
+  "name": "Dythervin.Routines",
+  "rootNamespace": "Dythervin.Routines",
+  "references": [
+    "GUID:f56dc0875763451db016c39dcbb974dd"
+  ]
+}
