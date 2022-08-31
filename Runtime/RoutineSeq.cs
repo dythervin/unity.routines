@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using UnityEngine.Assertions;
 
 namespace Dythervin.Routines
 {
@@ -46,6 +47,13 @@ namespace Dythervin.Routines
 
             _instructions.Add(instruction);
             instruction.DoneListener = this;
+        }
+
+        public void SetCurrent(int index)
+        {
+            Stop();
+            Assert.IsTrue(index >= 0 && index < _instructions.Count);
+            _current = index;
         }
 
         public void Append(Action action)

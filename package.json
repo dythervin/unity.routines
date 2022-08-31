@@ -1,6 +1,6 @@
 {
   "name": "com.dythervin.unity.routines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2020.3",
   "unityRelease": "0f1",
   "keywords": [],
@@ -11,6 +11,6 @@
   },
   "displayName": "routines",
   "dependencies": {
-    "com.dythervin.unity.updater": "1.0.0"
+    "com.dythervin.unity.updater": "1.0.1"
   }
 }
