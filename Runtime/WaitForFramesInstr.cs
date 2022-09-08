@@ -1,4 +1,4 @@
-﻿using Dythervin.Updater;
+﻿using Dythervin.Updaters;
 
 namespace Dythervin.Routines
 {

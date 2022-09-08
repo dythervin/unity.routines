@@ -11,6 +11,6 @@
   },
   "displayName": "routines",
   "dependencies": {
-    "com.dythervin.unity.updater": "1.0.1"
+    "com.dythervin.unity.updaters": "1.0.1"
   }
 }
